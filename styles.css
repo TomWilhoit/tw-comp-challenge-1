@@ -1,0 +1,299 @@
+body {
+	background-color: #efefef;
+}
+
+.admin-username {
+	background-color: #2b2b2b;
+	color: #0D52B9;
+	display: flex;
+	font-family: 'Oswald', sans-serif;
+	justify-content: flex-end;
+	padding: 10px 40px;
+}
+
+.fa-expeditedssl {
+	margin-right:10px;
+}
+
+.fa-arrow-down {
+	margin-left: 10px;
+}
+
+/*nav bar*/
+
+nav {
+	background-color: #2b2b2b;
+	display: flex;
+	font-family: 'Oswald', sans-serif;
+	height: 180px;
+	width: 100vw;
+}
+
+ul-links {
+	color:white;
+	display: flex; 
+	font-size: 20px;
+	justify-content: flex-start;
+	margin: 55px 0px 20px 60px;
+	width: 500px;
+}
+
+.fa-share-alt {
+	color:#ffff;
+	font-size: 35px;
+}
+
+.fa-boxes {
+	color: #0D52B9;
+	font-size: 35px;
+}
+
+.fa-dog{
+	color: #0D52B9;
+	font-size: 35px;
+}
+
+#personal-videos{
+	color: #0D52B9;
+	width: 650px;
+}
+
+div-logo {
+	display: flex;
+	justify-content: flex-end;
+	margin: 40px 60px 0px 0px;
+	width: 100%;
+}
+
+.fa-coffee {
+	color: #ffffff;
+	font-size: 90px;
+	font-weight: 900;
+	padding-right: 10px; 
+}
+
+.shares {
+	margin-left: 30px;
+	color: #2b2b2b;
+	font-family: 'Oswald', sans-serif;
+}
+
+li {
+ 	font-family: 'Oswald', sans-serif;
+ 	list-style-type: none;
+ 	margin: 11px;
+}
+
+#personal-videos{
+	color: #efefef;
+	width: 650px;
+}
+
+#views {
+	color: white;
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+}
+
+/*cards*/
+
+.cardcontainer {
+  align-items: center;
+  background-color: #efefef;
+  border: 1px;
+ 	display: flex;
+  flex-wrap: wrap;
+  font-family: 'Oswald', sans-serif;
+  justify-content: center;
+  justify-content: space-around;
+  width: 100vw ;
+}
+
+article {
+	font-weight: lighter;
+}
+
+.card { 
+  background-color: #ffffff;
+  box-shadow: 1px 2px;
+  height: 300px;
+	justify-content: center;
+  margin-top: 20px;
+  min-height:420px;
+  min-width: 300px;
+  width: 23vw;
+}
+
+section {
+	background-color: #989393;
+	display: flex;
+}
+
+.picture-1{
+	background-image: url("./images/t.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 37%;
+	z-index: 0;
+}
+
+.picture-2{
+	background-image: url("./images/jeo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+	height: 37%;
+}
+
+.picture-3{
+	background-image: url("./images/justin.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 37%;
+	z-index: 0;
+}
+
+.picture-4{
+	background-image: url("./images/k.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 37%;
+	z-index: 0;
+}
+
+.picture-5{
+	background-image: url("./images/gabe.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 37%;
+	z-index: 0;
+}
+
+.picture-6{
+	background-image: url("./images/travis.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 37%;
+	z-index: 0;
+}
+
+.picture-7{
+	background-image: url("./images/sally.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 37%;
+	z-index: 0;
+}
+
+.picture-8{
+	background-image: url("./images/tim.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 37%;
+	z-index: 0;
+}
+
+/*Inner card content*/
+
+
+.fa-github-square{
+	color: #ffffff;
+	font-size: 70px;
+	opacity: 0.7;
+}
+
+.right-views {
+	display: inline-block;
+	float: right;
+}
+
+.views {
+	color: white;
+	font-size: 20px;
+	margin: 3px 0px 0px 23px;
+}
+
+.views2 {
+	clear: both;
+	color: white;
+	font-size: 20px;
+	margin: 10px 7px;
+}
+
+
+.infobox {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Oswald', sans-serif;
+	padding: 14px;
+}
+
+.p1 { 
+	font-size: 22px;
+	margin: 0px;
+}
+
+.p2 {
+	margin: 0px;
+	size: 10px;
+}
+
+.p3 {
+	background-color: #efefef;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	size: 10px;
+}
+
+.p4 {
+	margin: 0px;
+	size: 11px;
+}
+
+.p5 {
+	margin: 0px 0px 10px 0px;
+	size: 14px;
+}
+
+.p6 {
+  font-size: 30px;
+	margin: 0px 0px 0px 0px;
+}
+
+.p7 {
+	color: #2a86a4;
+	font-size: 45px;
+	margin:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
